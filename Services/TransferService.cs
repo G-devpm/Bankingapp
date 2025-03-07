@@ -1,13 +1,14 @@
 using BankingApp.Data;
 using BankingApp.Models;
 using BankingApp.Services;
+using Microsoft.EntityFrameworkCore;
 
 public class TransferService : ITransferService
 {
     private readonly IAccountRepository _accountRepository;
     private readonly BankDbContext _context;
 
-    public TransferService(BankDbContext context)//IAccountRepository accountRepository, 
+    public TransferService(IAccountRepository accountRepository, BankDbContext context)// 
     {
         _accountRepository = accountRepository;
         _context = context;

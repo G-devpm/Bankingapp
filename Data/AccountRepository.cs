@@ -1,8 +1,9 @@
 ﻿using BankingApp.Models;
 using Microsoft.EntityFrameworkCore;
+using BankingApp.Data;
 
-namespace BankingApp.Data
-{
+//namespace BankingApp.Data
+//{
     public class AccountRepository : IAccountRepository
     {
         private readonly BankDbContext _context;
@@ -20,4 +21,4 @@ namespace BankingApp.Data
             await _context.SaveChangesAsync();
         }
     }
-}
+//}

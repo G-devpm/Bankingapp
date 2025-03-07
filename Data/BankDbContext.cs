@@ -1,4 +1,6 @@
-﻿namespace BankingApp.Data
+﻿
+
+namespace BankingApp.Data
 {
     using BankingApp.Models;
     using Microsoft.AspNetCore.Identity;

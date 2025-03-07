@@ -1,4 +1,5 @@
 using BankingApp.Data;
+using BankingApp.Services;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -9,6 +10,7 @@ builder.Services.AddDbContext<BankDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+builder.Services.AddScoped<ITransferService, TransferService>();
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
