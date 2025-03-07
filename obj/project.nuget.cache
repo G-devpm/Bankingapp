@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PPMpMgXYm1aoJIeldUbFwkQDxtNOdTKG32meLh9Nk39Fz5L+58aRsnRGmIJd7e6ybALesVJEkQHXhA76kZC9gg==",
+  "dgSpecHash": "xpzfOZe8IoxiZfXEB8QNWGbB1TAvc/Aq5WmLcbR1XfoW+Lu4crLizbas5xIfEDYcZ+XmevtpgzJn08tdHk1PDA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hercules.Odoko\\source\\repos\\BankingApp\\BankingApp.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\Hercules.Odoko\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.2\\microsoft.entityframeworkcore.relational.8.0.2.nupkg.sha512",
     "C:\\Users\\Hercules.Odoko\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.2\\microsoft.entityframeworkcore.sqlite.8.0.2.nupkg.sha512",
     "C:\\Users\\Hercules.Odoko\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.2\\microsoft.entityframeworkcore.sqlite.core.8.0.2.nupkg.sha512",
+    "C:\\Users\\Hercules.Odoko\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.2\\microsoft.entityframeworkcore.tools.8.0.2.nupkg.sha512",
     "C:\\Users\\Hercules.Odoko\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Hercules.Odoko\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Hercules.Odoko\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",

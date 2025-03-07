@@ -13,6 +13,7 @@
           "Microsoft.AspNetCore.OpenApi": "8.0.1",
           "Microsoft.EntityFrameworkCore.Design": "8.0.2",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.2",
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.2",
           "Microsoft.Identity.Web": "2.16.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -473,6 +474,11 @@
             "assemblyVersion": "8.0.2.0",
             "fileVersion": "8.0.224.6803"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/8.0.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "8.0.2"
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
@@ -1376,6 +1382,13 @@
       "sha512": "sha512-cUOohC2oMaHG8rAvF1bvg5U5Hmeio8nTvCJghyPSnnKtWPu6U/Ozw4jcdJn1UjeYe7X0udP8ax/IB6wb9BOLWw==",
       "path": "microsoft.entityframeworkcore.sqlite.core/8.0.2",
       "hashPath": "microsoft.entityframeworkcore.sqlite.core.8.0.2.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PWy3X3Z1fnWlbU6pQMSnBvMwqERoKsriJ688TMl1xT2NyqcSk6/dX22eI5eV+qYXYmYna72Dq2u0P8tNZ6AYtg==",
+      "path": "microsoft.entityframeworkcore.tools/8.0.2",
+      "hashPath": "microsoft.entityframeworkcore.tools.8.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
