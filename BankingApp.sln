@@ -1,24 +1,28 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.5.2.0
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingApp", "BankingApp.csproj", "{E3A58DF7-D954-7276-98DA-298CA588D4D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingApp", "BankingApp\BankingApp.csproj", "{47378A37-DB31-4BDD-88B9-F15ACB733EC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingApp.Tests", "BankingApp.Tests\BankingApp.Tests.csproj", "{78FCF00E-74BD-43AB-9E61-A907BBE3AF60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E3A58DF7-D954-7276-98DA-298CA588D4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3A58DF7-D954-7276-98DA-298CA588D4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3A58DF7-D954-7276-98DA-298CA588D4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3A58DF7-D954-7276-98DA-298CA588D4D1}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {71DB01E9-695A-4BFD-B4AC-2F7DEFED06B8}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47378A37-DB31-4BDD-88B9-F15ACB733EC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47378A37-DB31-4BDD-88B9-F15ACB733EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47378A37-DB31-4BDD-88B9-F15ACB733EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47378A37-DB31-4BDD-88B9-F15ACB733EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78FCF00E-74BD-43AB-9E61-A907BBE3AF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FCF00E-74BD-43AB-9E61-A907BBE3AF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FCF00E-74BD-43AB-9E61-A907BBE3AF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FCF00E-74BD-43AB-9E61-A907BBE3AF60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
